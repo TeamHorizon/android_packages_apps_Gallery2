@@ -21,7 +21,6 @@
     </style>
     <style name="Theme.Gallery.Dialog" parent="android:Theme.Holo.Dialog"/>
     <style name="Theme.Gallery" parent="Theme.GalleryBase">
-        <item name="android:displayOptions"></item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:actionBarStyle">@style/Holo.ActionBar</item>
         <item name="android:windowBackground">@android:color/black</item>
