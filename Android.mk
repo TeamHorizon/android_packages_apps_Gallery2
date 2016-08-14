@@ -24,7 +24,6 @@ LOCAL_CERTIFICATE := platform
 
 LOCAL_OVERRIDES_PACKAGES := Gallery Gallery3D GalleryNew3D
 
-LOCAL_PROGUARD_ENABLED := disabled
 
 #LOCAL_SDK_VERSION := current
 
@@ -42,7 +41,7 @@ endif
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
-LOCAL_JAVA_LIBRARIES += org.apache.http.legacy
+LOCAL_MULTILIB := 32
 
 include $(BUILD_PACKAGE)
 
